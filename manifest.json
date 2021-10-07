@@ -1,0 +1,12 @@
+{
+  "name": "dread",
+  "description": "懶得登入啦, 免登入閱讀 dcard 文章",
+  "version": "0.1",
+  "manifest_version": 3,
+  "content_scripts": [
+      {
+          "matches": ["https://www.dcard.tw/*"],
+          "js": ["content-script.js"]
+      }
+  ]
+}
